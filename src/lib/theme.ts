@@ -1,4 +1,5 @@
 import { Theme } from 'styled-system';
+import styled, { CreateStyled } from '@emotion/styled';
 import { black, white, gray, blue, green, orange, purple, red, yellow } from './constants/colors';
 import { fontSizes, lineHeights } from './constants/typography';
 
@@ -103,5 +104,5 @@ const theme: Theme = {
   space: [0, 4, 8, 16, 24, 32, 40, 48, 64, 80, 96, 112, 128],
 };
 
-export default theme;
-export { colors };
+export { colors, theme };
+export default styled as CreateStyled<Theme>;

@@ -1,6 +1,5 @@
-import styled from '@emotion/styled';
+import styled from './theme';
 import { COMMON } from './constants/system';
-import theme from './theme';
 import {
   compose,
   variant,
@@ -13,6 +12,7 @@ import {
   DisplayProps,
   LayoutProps,
 } from 'styled-system';
+import { buttonStyles } from './buttonStyles';
 
 interface Props {
   as?: ['button', 'a', 'summary', 'input'];
@@ -42,6 +42,7 @@ const variants = variant({
 });
 
 const Button = styled('button')<Props & StyleProps>(
+  buttonStyles,
   variants,
   compose(
     fontSize,
@@ -51,7 +52,6 @@ const Button = styled('button')<Props & StyleProps>(
 );
 
 Button.defaultProps = {
-  theme,
   variant: 'medium',
 };
 

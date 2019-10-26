@@ -8,15 +8,7 @@ import { Button } from '../Button';
 // storiesOf("Welcome", module).add("to Storybook", () => <Welcome showApp={linkTo("Button")} />);
 
 storiesOf('Button', module)
-  .add(
-    'with text',
-    () => (
-      <Button color="blue" onClick={action('clicked')}>
-        Hello Button
-      </Button>
-    ),
-    { info: { inline: true } },
-  )
+  .add('Default', () => <Button onClick={action('clicked')}>Hello Button</Button>, { info: { inline: true } })
   .add(
     'with some emoji',
     () => (

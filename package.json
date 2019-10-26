@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.22",
     "@styled-system/theme-get": "^5.1.2",
     "@types/jest": "24.0.19",
