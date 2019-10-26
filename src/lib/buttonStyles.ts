@@ -8,8 +8,10 @@ export const buttonStyles = css({
   padding: '6px 12px',
   color: getTheme('colors.gray.9'),
   backgroundColor: getTheme('colors.gray.1'),
-  // For whatever reason, typescript is forcing me to use bracket notation on colors
-  backgroundImage: `linear-gradient(-180deg, ${theme.colors['gray'][0]} 0%, ${theme.colors['button'].bg2} 90%)`,
+  // For whatever reason, when inside a template literal, getTheme needs theme curried
+  backgroundImage: `linear-gradient(-180deg, ${getTheme('colors.gray.0')(theme)} 0%, ${getTheme('colors.button.bg2')(
+    theme,
+  )} 90%)`,
   fontSize: 1, // TODO: refactor variants, this is unecessary if the variant has it.
   fontWeight: 'bold',
   lineHeight: '20px',
