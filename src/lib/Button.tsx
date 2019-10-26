@@ -14,7 +14,7 @@ import {
 } from 'styled-system';
 import { buttonStyles } from './buttonStyles';
 
-interface Props {
+interface ButtonProps {
   as?: ['button', 'a', 'summary', 'input'];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   children?: any;
@@ -25,7 +25,7 @@ interface Props {
   variant?: string;
 }
 
-type StyleProps = SpaceProps & ColorProps & DisplayProps & LayoutProps;
+type SystemProps = SpaceProps & ColorProps & DisplayProps & LayoutProps;
 
 const variants = variant({
   variants: {
@@ -41,9 +41,10 @@ const variants = variant({
   },
 });
 
-const Button = styled('button')<Props & StyleProps>(
+const Button = styled('button')<ButtonProps & SystemProps>(
   buttonStyles,
   variants,
+  // `compose` is used based on styled-system's recommendation here: https://styled-system.com/guides/migrating/#compose
   compose(
     fontSize,
     COMMON,
