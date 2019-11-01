@@ -2,6 +2,7 @@ import { Theme } from 'styled-system';
 import styled, { CreateStyled } from '@emotion/styled';
 import { black, white, gray, blue, green, orange, purple, red, yellow } from './constants/colors';
 import { fontSizes, lineHeights } from './constants/typography';
+import { buttons } from './variants';
 
 const fontStack = (fonts: Array<string>): string =>
   fonts.map(font => (font.includes(' ') ? `"${font}"` : font)).join(', ');
@@ -165,6 +166,20 @@ const theme: Theme = {
     formControlFocus: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em',
   },
   space: [0, 4, 8, 16, 24, 32, 40, 48, 64, 80, 96, 112, 128],
+  buttons: {
+    primary: {
+      color: colors.bodytext,
+      bg: colors.blue,
+    },
+    outline: {
+      color: 'button.outlineBlue',
+      bg: 'button.white',
+    },
+    danger: {
+      color: 'red.6',
+      bg: 'gray.0',
+    },
+  },
 };
 
 export { colors, theme };

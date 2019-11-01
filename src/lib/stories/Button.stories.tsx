@@ -9,9 +9,17 @@ import { theme } from '../theme';
 // storiesOf("Welcome", module).add("to Storybook", () => <Welcome showApp={linkTo("Button")} />);
 
 storiesOf('Button', module)
-  .add('Default', () => <Button onClick={action(JSON.stringify(theme.colors['gray']))}>Hello Button</Button>, {
-    info: { inline: true },
-  })
+  .add(
+    'Default',
+    () => (
+      <Button variant="primary" onClick={action(JSON.stringify(theme.colors['gray']))}>
+        Hello Button
+      </Button>
+    ),
+    {
+      // info: { inline: true },
+    },
+  )
   .add(
     'with some emoji',
     () => (
@@ -21,5 +29,5 @@ storiesOf('Button', module)
         </span>
       </Button>
     ),
-    { info: { inline: true } },
+    // { info: { inline: true } },
   );

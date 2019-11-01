@@ -15,7 +15,7 @@ import {
 import { buttonStyles } from './buttonStyles';
 
 interface ButtonProps {
-  as?: ['button', 'a', 'summary', 'input'];
+  as?: 'button' | 'a' | 'summary' | 'input';
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   children?: any;
   disabled?: boolean;
@@ -25,20 +25,11 @@ interface ButtonProps {
   variant?: string;
 }
 
+// Question: Why can't I use an interface that extends these?
 type SystemProps = SpaceProps & ColorProps & DisplayProps & LayoutProps;
 
 const variants = variant({
-  variants: {
-    small: {
-      fontSize: 0,
-    },
-    medium: {
-      fontSize: 1,
-    },
-    large: {
-      fontSize: 2,
-    },
-  },
+  scale: 'buttons',
 });
 
 const Button = styled('button')<ButtonProps & SystemProps>(
@@ -53,7 +44,7 @@ const Button = styled('button')<ButtonProps & SystemProps>(
 );
 
 Button.defaultProps = {
-  variant: 'medium',
+  variant: 'primary',
 };
 
 export { Button };
