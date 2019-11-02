@@ -12,5 +12,6 @@ module.exports =  {
   },
   rules: {
     "react/jsx-uses-vars": 1,
+    "multiline-ternary": ["always-multiline", 1]
   }
 };
