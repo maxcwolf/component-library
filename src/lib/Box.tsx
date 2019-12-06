@@ -1,6 +1,5 @@
 import { compose, space, color, layout, SpaceProps, ColorProps, LayoutProps } from 'styled-system';
-import css, { get } from '@styled-system/css';
-import styled from './theme';
+import styled from '@emotion/styled';
 
 type Props = {
   as: string;
@@ -10,14 +9,4 @@ type Props = {
 
 type BoxProps = SpaceProps & ColorProps & LayoutProps & Props;
 
-const variant = ({ theme, variant, __themeKey = 'variants' }) =>
-  css(get(theme, __themeKey + '.' + variant, get(theme, variant)));
-
-export const Box = styled('div')<BoxProps>(
-  variant,
-  compose(
-    layout,
-    space,
-    color,
-  ),
-);
+export const Box = styled('div')<BoxProps>(compose(layout, space, color));

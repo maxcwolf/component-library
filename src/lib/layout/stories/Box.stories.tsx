@@ -4,8 +4,10 @@ import { Box } from '../';
 
 const stories = storiesOf('Box', module);
 
-stories.add('hover', () => (
-  <Box color="xoiBlue" fontWeight="medium" _hover={{ bg: 'red.4', color: 'white' }}>
+stories.add('Default', () => <Box fontWeight="medium">I am a box</Box>);
+
+stories.add('Hover', () => (
+  <Box color="xoiBlue" fontWeight="medium" _hover={{ bg: 'gray.4', color: 'white' }}>
     Hover over me
   </Box>
 ));

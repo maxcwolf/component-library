@@ -1,4 +1,4 @@
-import styled from './theme';
+import styled from '@emotion/styled';
 import { COMMON } from './constants/system';
 import {
   compose,
@@ -36,11 +36,7 @@ const Button = styled('button')<ButtonProps & SystemProps>(
   buttonStyles,
   variants,
   // `compose` is used based on styled-system's recommendation here: https://styled-system.com/guides/migrating/#compose
-  compose(
-    fontSize,
-    COMMON,
-    layout,
-  ),
+  compose(fontSize, COMMON, layout),
 );
 
 Button.defaultProps = {

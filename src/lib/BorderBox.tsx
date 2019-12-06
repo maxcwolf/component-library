@@ -1,4 +1,4 @@
-import styled from './theme';
+import styled from '@emotion/styled';
 import { Box } from './Box';
 import { border, BorderProps } from 'styled-system';
 

@@ -2,6 +2,7 @@ import * as React from 'react';
 
 export const icons = {
   copy: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -10,6 +11,7 @@ export const icons = {
     ),
   },
   search: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -18,6 +20,7 @@ export const icons = {
     ),
   },
   'search-2': {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -26,6 +29,7 @@ export const icons = {
     ),
   },
   moon: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -34,6 +38,7 @@ export const icons = {
     ),
   },
   sun: {
+    viewBox: null,
     path: (
       <g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor">
         <circle cx="12" cy="12" r="5" />
@@ -49,6 +54,7 @@ export const icons = {
     ),
   },
   add: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -76,6 +82,7 @@ export const icons = {
     ),
   },
   'check-circle': {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -84,6 +91,7 @@ export const icons = {
     ),
   },
   lock: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -92,6 +100,7 @@ export const icons = {
     ),
   },
   unlock: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -100,6 +109,7 @@ export const icons = {
     ),
   },
   view: {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M23.432,10.524C20.787,7.614,16.4,4.538,12,4.6,7.6,4.537,3.213,7.615.568,10.524a2.211,2.211,0,0,0,0,2.948C3.182,16.351,7.507,19.4,11.839,19.4h.308c4.347,0,8.671-3.049,11.288-5.929A2.21,2.21,0,0,0,23.432,10.524ZM7.4,12A4.6,4.6,0,1,1,12,16.6,4.6,4.6,0,0,1,7.4,12Z" />
@@ -108,6 +118,7 @@ export const icons = {
     ),
   },
   'view-off': {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M23.2,10.549a20.954,20.954,0,0,0-4.3-3.6l4-3.995a1,1,0,1,0-1.414-1.414l-.018.018a.737.737,0,0,1-.173.291l-19.5,19.5c-.008.007-.018.009-.026.017a1,1,0,0,0,1.631,1.088l4.146-4.146a11.26,11.26,0,0,0,4.31.939h.3c4.256,0,8.489-2.984,11.051-5.8A2.171,2.171,0,0,0,23.2,10.549ZM16.313,13.27a4.581,4.581,0,0,1-3,3.028,4.3,4.3,0,0,1-3.1-.19.253.253,0,0,1-.068-.407l5.56-5.559a.252.252,0,0,1,.407.067A4.3,4.3,0,0,1,16.313,13.27Z" />
@@ -125,6 +136,7 @@ export const icons = {
     ),
   },
   delete: {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M19.452,7.5H4.547a.5.5,0,0,0-.5.545L5.334,22.181A2,2,0,0,0,7.326,24h9.347a2,2,0,0,0,1.992-1.819L19.95,8.045a.5.5,0,0,0-.129-.382A.5.5,0,0,0,19.452,7.5Zm-9.2,13a.75.75,0,0,1-1.5,0v-9a.75.75,0,0,1,1.5,0Zm5,0a.75.75,0,0,1-1.5,0v-9a.75.75,0,0,1,1.5,0Z" />
@@ -133,6 +145,7 @@ export const icons = {
     ),
   },
   repeat: {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M10.319,4.936a7.239,7.239,0,0,1,7.1,2.252,1.25,1.25,0,1,0,1.872-1.657A9.737,9.737,0,0,0,9.743,2.5,10.269,10.269,0,0,0,2.378,9.61a.249.249,0,0,1-.271.178l-1.033-.13A.491.491,0,0,0,.6,9.877a.5.5,0,0,0-.019.526l2.476,4.342a.5.5,0,0,0,.373.248.43.43,0,0,0,.062,0,.5.5,0,0,0,.359-.152l3.477-3.593a.5.5,0,0,0-.3-.844L5.15,10.172a.25.25,0,0,1-.2-.333A7.7,7.7,0,0,1,10.319,4.936Z" />
@@ -141,6 +154,7 @@ export const icons = {
     ),
   },
   'repeat-clock': {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M12.965,6a1,1,0,0,0-1,1v5.5a1,1,0,0,0,1,1h5a1,1,0,0,0,0-2h-3.75a.25.25,0,0,1-.25-.25V7A1,1,0,0,0,12.965,6Z" />
@@ -149,6 +163,7 @@ export const icons = {
     ),
   },
   edit: {
+    viewBox: null,
     path: (
       <g fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2">
         <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
@@ -157,30 +172,39 @@ export const icons = {
     ),
   },
   'chevron-right': {
+    viewBox: null,
     path: <path fill="currentColor" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />,
   },
   'chevron-left': {
+    viewBox: null,
     path: <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />,
   },
   'chevron-down': {
+    viewBox: null,
     path: <path fill="currentColor" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />,
   },
   'chevron-up': {
+    viewBox: null,
     path: <path fill="currentColor" d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z" />,
   },
   'arrow-forward': {
+    viewBox: null,
     path: <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />,
   },
   'arrow-up': {
+    viewBox: null,
     path: <path fill="currentColor" d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />,
   },
   'arrow-down': {
+    viewBox: null,
     path: <path fill="currentColor" d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" />,
   },
   'arrow-back': {
+    viewBox: null,
     path: <path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />,
   },
   'external-link': {
+    viewBox: null,
     path: (
       <g fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2">
         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
@@ -190,6 +214,7 @@ export const icons = {
     ),
   },
   link: {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M10.458,18.374,7.721,21.11a2.853,2.853,0,0,1-3.942,0l-.892-.891a2.787,2.787,0,0,1,0-3.941l5.8-5.8a2.789,2.789,0,0,1,3.942,0l.893.892A1,1,0,0,0,14.94,9.952l-.893-.892a4.791,4.791,0,0,0-6.771,0l-5.8,5.8a4.787,4.787,0,0,0,0,6.77l.892.891a4.785,4.785,0,0,0,6.771,0l2.736-2.735a1,1,0,1,0-1.414-1.415Z" />
@@ -198,6 +223,7 @@ export const icons = {
     ),
   },
   'plus-square': {
+    viewBox: null,
     path: (
       <g fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2">
         <rect height="18" width="18" rx="2" ry="2" x="3" y="3" />
@@ -225,6 +251,7 @@ export const icons = {
     ),
   },
   time: {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M12,0A12,12,0,1,0,24,12,12.014,12.014,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10.011,10.011,0,0,1,12,22Z" />
@@ -233,6 +260,7 @@ export const icons = {
     ),
   },
   attachment: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -250,6 +278,7 @@ export const icons = {
     ),
   },
   'at-sign': {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -258,6 +287,7 @@ export const icons = {
     ),
   },
   'arrow-left': {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M10.416,12a2.643,2.643,0,0,1,.775-1.875L20.732.584a1.768,1.768,0,0,1,2.5,2.5l-8.739,8.739a.25.25,0,0,0,0,.354l8.739,8.739a1.768,1.768,0,0,1-2.5,2.5l-9.541-9.541A2.643,2.643,0,0,1,10.416,12Z" />
@@ -266,6 +296,7 @@ export const icons = {
     ),
   },
   'arrow-right': {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M13.584,12a2.643,2.643,0,0,1-.775,1.875L3.268,23.416a1.768,1.768,0,0,1-2.5-2.5l8.739-8.739a.25.25,0,0,0,0-.354L.768,3.084a1.768,1.768,0,0,1,2.5-2.5l9.541,9.541A2.643,2.643,0,0,1,13.584,12Z" />
@@ -274,6 +305,7 @@ export const icons = {
     ),
   },
   star: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -282,6 +314,7 @@ export const icons = {
     ),
   },
   email: {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <path d="M11.114,14.556a1.252,1.252,0,0,0,1.768,0L22.568,4.87a.5.5,0,0,0-.281-.849A1.966,1.966,0,0,0,22,4H2a1.966,1.966,0,0,0-.289.021.5.5,0,0,0-.281.849Z" />
@@ -299,6 +332,7 @@ export const icons = {
     ),
   },
   spinner: {
+    viewBox: null,
     path: (
       <React.Fragment>
         <defs>
@@ -325,6 +359,7 @@ export const icons = {
     ),
   },
   close: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -343,6 +378,7 @@ export const icons = {
     viewBox: '0 0 16 16',
   },
   'not-allowed': {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -351,6 +387,7 @@ export const icons = {
     ),
   },
   'triangle-down': {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -359,6 +396,7 @@ export const icons = {
     ),
   },
   'triangle-up': {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -367,6 +405,7 @@ export const icons = {
     ),
   },
   bell: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -375,6 +414,7 @@ export const icons = {
     ),
   },
   'info-outline': {
+    viewBox: null,
     path: (
       <g fill="currentColor" stroke="currentColor" strokeLinecap="square" strokeWidth="2">
         <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor" />
@@ -384,6 +424,7 @@ export const icons = {
     ),
   },
   info: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -392,6 +433,7 @@ export const icons = {
     ),
   },
   question: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -400,6 +442,7 @@ export const icons = {
     ),
   },
   'question-outline': {
+    viewBox: null,
     path: (
       <g stroke="currentColor" strokeWidth="1.5">
         <path strokeLinecap="round" fill="none" d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25" />
@@ -409,6 +452,7 @@ export const icons = {
     ),
   },
   warning: {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -417,6 +461,7 @@ export const icons = {
     ),
   },
   'warning-2': {
+    viewBox: null,
     path: (
       <path
         fill="currentColor"
@@ -442,6 +487,7 @@ export const icons = {
     viewBox: '0 0 14 14',
   },
   minus: {
+    viewBox: null,
     path: (
       <g fill="currentColor">
         <rect height="4" width="20" x="2" y="10" />

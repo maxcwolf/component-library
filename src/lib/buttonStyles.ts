@@ -1,15 +1,15 @@
 import { css } from '@styled-system/css';
 import { getTheme } from './utils/get';
-import { theme } from './theme';
+import { theme } from './theme/theme';
 
 export const buttonStyles = css({
   position: 'relative',
   display: 'inline-block',
   px: 3,
   py: 2,
-  // padding: '6px 12px',
-  // color: getTheme('colors.gray.9'),
-  // backgroundColor: getTheme('colors.gray.1'),
+  padding: '6px 12px',
+  color: getTheme('colors.gray.9'),
+  backgroundColor: getTheme('colors.gray.1'),
   // For whatever reason, when inside a template literal, getTheme needs theme curried
   // backgroundImage: `linear-gradient(-180deg, ${getTheme('colors.gray.0')(theme)} 0%, ${getTheme('colors.button.bg2')(
   //   theme,
@@ -39,7 +39,7 @@ export const buttonStyles = css({
   '&:active': {
     backgroundColor: getTheme('colors.button.activeBg'),
     backgroundImage: 'none',
-    boxShadow: `${theme.colors['blackfade15']} 0px 0.15em 0.3em inset`,
+    boxShadow: `${theme.colors['black']} 0px 0.15em 0.3em inset`,
     borderColor: getTheme('colors.button.border'), //convert black to rbg here
   },
   // ${props =>

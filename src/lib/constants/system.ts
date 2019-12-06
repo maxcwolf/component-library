@@ -34,15 +34,11 @@ import { customProps, CustomProps } from '../utils/transform';
 import { PseudoProps } from '../utils/pseudo';
 import { Omit } from '../utils/types';
 import { createShouldForwardProp, props } from '@styled-system/should-forward-prop';
-import { Theme } from '../theme/index';
+import { Theme } from '../theme/theme';
 
 export type CommonProps = SpaceProps & ColorProps & LayoutProps;
 
-export const COMMON = compose(
-  space,
-  color,
-  layout,
-);
+export const COMMON = compose(space, color, layout);
 
 // Prevent some prop from getting to the underlying DOM element
 const _shouldForwardProp = createShouldForwardProp([
@@ -126,8 +122,6 @@ type ModifiedTypographyProps = Omit<TypographyProps, 'fontWeight' | 'lineHeight'
   ModifiedFontWeight &
   ModifiedLineHeight &
   ModifiedLetterSpacing;
-
-// type zz= ModifiedFontWeight["fontWeight"][]
 
 // All system props
 export type SystemProps = ColorProps &

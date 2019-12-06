@@ -17,8 +17,8 @@ const StyledBox = styled('div', {
   shouldForwardProp,
 })(systemFn, pseudo as FunctionInterpolation<object>, truncate as FunctionInterpolation<any>);
 
-export const Box = React.forwardRef(function Box<P, T extends HTMLElement>(props: BoxProps<P, T>, ref: React.Ref<T>) {
-  return <StyledBox ref={ref} {...props} />;
-}) as <P, T = HTMLElement>(props: BoxProps<P, T>) => React.ReactElement<BoxProps<P, T>>;
+export const Box = React.forwardRef(<P, T extends HTMLElement>(props: BoxProps<P, T>, ref: React.Ref<T>) => (
+  <StyledBox ref={ref} {...props} />
+)) as <P, T = HTMLElement>(props: BoxProps<P, T>) => React.ReactElement<BoxProps<P, T>>;
 
 //export const Box = styled('div', { shouldForwardProp })<BoxProps>(systemFn);
