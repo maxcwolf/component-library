@@ -18,11 +18,6 @@ const colors = {
   purple,
   red,
   yellow,
-  blackfade15: 'rgba(27, 31, 35, 0.15)',
-  blackfade20: 'rgba(27, 31, 35, 0.20)',
-  blackfade35: 'rgba(27, 31, 35, 0.35)',
-  blackfade50: 'rgba(27, 31, 35, 0.5)',
-  whitefade15: 'rgba(255, 255, 255, 0.15)',
   state: {
     error: red[5],
     failure: red[5],

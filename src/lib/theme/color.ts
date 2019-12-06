@@ -1,6 +1,6 @@
-export const black = '#1b1f23';
-export const white = '#fff';
-export const gray = [
+const black = '#1b1f23';
+const white = '#fff';
+const gray = [
   '#fafbfc',
   '#f6f8fa',
   '#e1e4e8',
@@ -12,7 +12,7 @@ export const gray = [
   '#2f363d',
   '#24292e',
 ];
-export const blue = [
+const blue = [
   '#f1f8ff',
   '#dbedff',
   '#c8e1ff',
@@ -24,7 +24,7 @@ export const blue = [
   '#032f62',
   '#05264c',
 ];
-export const green = [
+const green = [
   '#f0fff4',
   '#dcffe4',
   '#bef5cb',
@@ -36,7 +36,7 @@ export const green = [
   '#165c26',
   '#144620',
 ];
-export const yellow = [
+const yellow = [
   '#fffdef',
   '#fffbdd',
   '#fff5b1',
@@ -48,7 +48,7 @@ export const yellow = [
   '#b08800',
   '#735c0f',
 ];
-export const orange = [
+const orange = [
   '#fff8f2',
   '#ffebda',
   '#ffd1ac',
@@ -60,7 +60,7 @@ export const orange = [
   '#c24e00',
   '#a04100',
 ];
-export const red = [
+const red = [
   '#ffeef0',
   '#ffdce0',
   '#fdaeb7',
@@ -72,7 +72,7 @@ export const red = [
   '#9e1c23',
   '#86181d',
 ];
-export const purple = [
+const purple = [
   '#f5f0ff',
   '#e6dcfd',
   '#d1bcf9',
@@ -86,6 +86,7 @@ export const purple = [
 ];
 
 export const colors = {
+  xoiBlue: '#43abda',
   bodytext: gray[9],
   black,
   white,
@@ -133,3 +134,5 @@ export const colors = {
     hoverBg: '#eaecef',
   },
 };
+
+export type Colors = typeof colors;
